@@ -1,0 +1,26 @@
+{
+  "name": "imageresizes",
+  "productName":"Images resize",
+  "version": "1.0.0",
+  "description": "Desktop app in electro by resizes images whit a user controller ",
+  "main": "src/index.js",
+  "scripts": {
+    "dev": "electron ./src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Electron",
+    "desktop",
+    "images",
+    "resizes",
+    "java",
+    "script"
+  ],
+  "author": "JOSE LUIS ZUÑIGA <joseluis836@hotmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "electron": "^22.0.2",
+    "resize-img": "^2.0.0",
+    "toastify-js": "^1.12.0"
+  }
+}
